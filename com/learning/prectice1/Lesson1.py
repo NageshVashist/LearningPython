@@ -1,7 +1,9 @@
+
+# learn how to define methods and call them
 print(2+3)
 
 def add(a,b):
-  print(a+b)
+    print(a+b)
 add(2,3)
 
 
