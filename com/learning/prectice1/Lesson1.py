@@ -1,13 +1,15 @@
 
-# learn how to define methods and call them
-print(2+3)
+# learn how to declare variables
+a= 5
+b= 6
+s1= "Nagesh"
+s2= "Vashist"
+print("Add two numbers: ", a+b)
+print(s1+s2)
+print(s1.capitalize())
+print(s1.casefold())
 
-def add(a,b):
-    print(a+b)
-add(2,3)
 
 
-def minus(a,b):
-    print(a-b)
 
-minus(4,7)
+
