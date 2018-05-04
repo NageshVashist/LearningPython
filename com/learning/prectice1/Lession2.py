@@ -17,7 +17,7 @@ def main():
     hours = float(input('Enter hours worked: '))
     wage = float(input('Enter dollars paid per hour: '))
     total = calc_weekly_wages(hours, wage)
-    print('Wages for {hours} hours at ${wage:.2f} per hour are ${total:.2f}.'
+    print('Wages for {hours} hours at Rs{wage:.2f} per hour are Rs{total:.2f}.'
           .format(**locals()))
 
 
